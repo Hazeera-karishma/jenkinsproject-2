@@ -1,0 +1,16 @@
+pipeline{
+agent any
+stages{
+stage('Dev'){
+steps{echo'Development'}
+}
+stage('test'){
+steps{echo'testing'}
+}
+stage('prod'){
+steps{echo'production'}
+}
+}
+}
+
+
